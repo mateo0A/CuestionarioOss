@@ -2,7 +2,7 @@
     display: block;
     white-space: nowrap;
     border-right: 4px solid var(--color-basis) ;
-    width: 8ch;
+    width: 9ch;
     animation: typing 1s steps(12),   
     blink .5s step-end infinite alternate;
     overflow: hidden;
