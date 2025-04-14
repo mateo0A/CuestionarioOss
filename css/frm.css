@@ -59,5 +59,6 @@
     color: #FFF;
 }
 .frm-Login input{
-    color: black;
+    color: rgb(0, 0, 0);
+    background: #ffffff;
 }

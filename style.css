@@ -32,6 +32,12 @@ body.darkMM{
     --btn-frm:#1b1b1b;
 
 }
+body.darkMM .bi-brightness-low{
+    opacity: 1;
+}
+body.darkMM .bi-moon{
+    opacity: 0;
+}
 /*DArkmode*/
 
 .drk-lght{
@@ -48,4 +54,10 @@ body.darkMM{
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
+}
+.bi-brightness-low{
+    opacity: 0;
+}
+.bi-moon{
+    opacity: 1;
 }
