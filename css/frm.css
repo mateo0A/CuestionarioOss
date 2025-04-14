@@ -43,7 +43,7 @@
     opacity: 0;
 }
 
-.deletanimate{
+.deletanimate{      
     transition: .3s .1s;
     padding: 10px;
     height: 50px;
@@ -56,10 +56,10 @@
 }
 .frm-Login .btnSubmit:hover{
     background: var(--btn-frm-hover);
-    color: #FFF;
+    color: #FFF; 
 }
 .frm-Login input{
     color: rgb(0, 0, 0);
-    background: #ffffff;
-    border: none;
+    background: rgb(255, 254, 254);
+    border: 0.1px solid;     
 }
