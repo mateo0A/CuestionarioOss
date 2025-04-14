@@ -35,14 +35,14 @@
     transition: all .3s .1s;
 }
 
-/*
+
 
 .deletanimate.des{ 
     height: 0px;
     overflow: hidden;
     opacity: 0;
 }
-*/
+
 .deletanimate{
     transition: .3s .1s;
     padding: 10px;
