@@ -58,3 +58,6 @@
     background: var(--btn-frm-hover);
     color: #FFF;
 }
+.frm-Login input{
+    color: #1c1c11;
+}
