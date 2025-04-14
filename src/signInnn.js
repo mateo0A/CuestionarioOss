@@ -7,8 +7,9 @@ const loginFrm=document.querySelector('.frm-Login');
 loginFrm.addEventListener('submit',async e=>{
     e.preventDefault()
 
-    const emailIn=loginFrm['emailUser'].value;
-    const passwordIn=loginFrm['passwordUser'].value;
+    const passwordIn=loginFrm['password'].value;
+    const emailIn=loginFrm['Useremail'].value;
+
     console.log(emailIn + passwordIn);
     try {
         const credentials= await signInWithEmailAndPassword(auth,emailIn,passwordIn)

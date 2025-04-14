@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --bck-body:#DDD;
+    --bck-btnmode:#FFF;
+    --color-basis:#1c1c1c;
+    --bck-frm:#fff;
+    --btn-frm:#ddd7d7;
+    --btn-frm-hover:#2fa32b;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--color-basis);
+    font-family: "Poppins", sans-serif;
+}
+
+/*Body*/
+body{
+    background: var(--bck-body);
+    transition: all .3s .1s;
+
+}
+
+body.darkMM{
+    --bck-body:#000000;
+    --bck-btnmode:#636161;
+    --color-basis:#fff;
+    --bck-frm:#313030;
+    --btn-frm:#1b1b1b;
+
+}
+/*DArkmode*/
+
+.drk-lght{
+    background: var(--bck-btnmode);
+    position: fixed;
+    padding: 30px;
+    top: 10px;
+    right:  10px;
+    border-radius: 10px; 
+    border: none;
+}
+.drk-lght i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
