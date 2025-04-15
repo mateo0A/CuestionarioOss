@@ -48,6 +48,9 @@ body.darkMM .bi-moon{
     right:  10px;
     border-radius: 10px; 
     border: none;
+    z-index: 100;
+    width: 30px;     
+    height: 30px;
 }
 .drk-lght i{
     position: absolute;

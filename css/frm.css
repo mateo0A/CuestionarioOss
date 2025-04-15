@@ -2,7 +2,7 @@
     display: block;
     white-space: nowrap;
     border-right: 4px solid var(--color-basis) ;
-    width: 9ch;
+    width: 10ch;
     animation: typing 1s steps(12),   
     blink .5s step-end infinite alternate;
     overflow: hidden;
@@ -29,13 +29,16 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    width: 450px;
+    width:  530px;
     padding: 20px 20px 150px 20px;
     border-radius: 10px; 
     transition: all .3s .1s;
 }
 
-
+/*Login Movil*/
+.frm-Login.movil{
+    width: 80%;
+}
 
 .deletanimate.des{ 
     height: 0px;
@@ -53,6 +56,7 @@
     background: var(--btn-frm);
     border: none;
     font-size: 15px;
+    width: 80%;
 }
 .frm-Login .btnSubmit:hover{
     background: var(--btn-frm-hover);
@@ -62,4 +66,5 @@
     color: rgb(0, 0, 0);
     background: rgb(255, 254, 254);
     border: 0.1px solid;     
+    width: 90%;
 }
