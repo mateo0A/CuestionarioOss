@@ -1,0 +1,28 @@
+
+
+
+/*body*/
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*--------------------*/
+
+.cuestionarioFrm{
+    background: #1c1c1c;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+.cuestionarioFrm .pregunta{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
