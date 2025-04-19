@@ -13,16 +13,27 @@ body{
 
 .cuestionarioFrm{
     background: #1c1c1c;
-    width: 700px;
+    width:900px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     padding: 10px;
     margin: 10px;
+    position: relative;
+    height: 1700px;
+    z-index: 0;
 }
 .cuestionarioFrm .pregunta{
     display: flex;
     flex-direction: column;
+    justify-content: start;
     gap: 10px;
+    width: 90%;
+}
+
+
+.timer{
+    background: #fff;
+    padding: 50px;
+    color: #1c1c1c;
 }

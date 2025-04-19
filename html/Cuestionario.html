@@ -1,28 +1,909 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cuestionario OS</title>
-    <link rel="stylesheet" href="../style.css">  
+    <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../css/cuestionario.css">
-    <script src="../src/darkMode.js" defer></script>
+    <link rel="stylesheet" href="../css/containQuestions.css">
+    <script type="module" src="../main2.js" defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
+
 <body>
+    <span class="timer">aass</span>
+
     <button class="drk-lght">
         <i class="bi bi-moon"></i>
         <i class="bi bi-brightness-low"></i>
     </button>
     <form action="" class="cuestionarioFrm">
         <h1>Cuestionario de Sistemas Operativos</h1>
-        <section class="pregunta">
-            <span class="textPregunta">Pregunta 1</span>
-            <input type="radio" name="p1" id="" value="">
-            <input type="radio" name="p1" id="" value="">
-            <input type="radio" name="p1" id="" value="">
+
+        <div class="btn-preg">
+            <button class="siguiente">Siguiente</button>
+            <button class="anterior">Anterior</button>
+        </div>
+        <aside class="limiteInicio"></aside>
+        <aside class="pregTem1 conatinPreg">
+            <section class="pregunta">
+                <span class="textPregunta">1.- Escoja las extensiones y tipos de archivos del sistema.</span>
+                <aside class="preguntas">
+                    <input type="checkbox" name="p1" class="rc" value="">CMD
+                    <br>
+                    <input type="checkbox" name="p1" class="" value="">ABC
+                    <br>
+                    <input type="checkbox" name="p1" id="" value="">SD1
+                    <br>
+                    <input type="checkbox" name="p1" class="rc" value="">COM
+
+
+
+
+
+                </aside>
+
+            </section>
+
+            <section class="pregunta">
+                <span class="textPregunta">2.- Escoja cual fue el primer sistema operativo de Window</span>
+                <aside class="preguntas">
+                    <input type="radio" name="p2" value="">Windos XP
+                    <br>
+                    <input type="radio" name="p2" class="rc" value="">Windows Vista
+                    <br>
+                    <input type="radio" name="p2" id="" value="">Windows 7
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+            <section class="pregunta">
+                <span class="textPregunta">3.- Para que sirve CD o cd</span>
+                <aside class="preguntas">
+                    <input type="radio" name="p3" class="rc" value="">Cambiar directorio
+                    <br>
+                    <input type="radio" name="p3" value="">Crear una nueva carpeta
+                    <br>
+                    <input type="radio" name="p3" id="" value="">Entrar al dico C:
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+
+            <section class="pregunta">
+                <span class="textPregunta">6.- </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p4" class="" value="">
+                    <br>
+                    <input type="radio" name="p4" class="" value="">
+                    <br>
+                    <input type="radio" name="p4" class="" value="">
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+
+
+
+
+            <section class="pregunta">
+                <span class="textPregunta">5.-Seleccione tipos de archivos de audio </span>
+                <aside class="preguntas">
+                    <input type="checkbox" name="p5" class="rcc2" value="1">MP3
+                    <br>
+                    <input type="checkbox" name="p5" class="" value="1">RCA
+                    <br>
+                    <input type="checkbox" name="p5" class="rcc2" value="1">AU
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+            <section class="pregunta">
+                <span class="textPregunta">8.- </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p6" class="" value="">
+                    <br>
+                    <input type="radio" name="p6" class="" value="">
+                    <br>
+                    <input type="radio" name="p6" class="" value="">
+                    <br>9
+
+
+
+                </aside>
+
+            </section>
+            <section class="pregunta">
+                <span class="textPregunta">7.- Escoja el tipo de archivo de imagen que se utiliza en el icono de una
+                    pestaña de una pagina web</span>
+                <aside class="preguntas">
+                    <input type="radio" name="p7" class="" value="">PNG
+                    <br>
+                    <input type="radio" name="p7" class="rc" value="">Ico
+                    <br>
+                    <input type="radio" name="p7" class="" value="">JPEG
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+            <section class="pregunta">
+                <span class="textPregunta">8.-El prompt que configuracion realiza en la terminal </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p8" class="" value="">Cambia el color
+                    <br>
+                    <input type="radio" name="p8" class="" value="">Muestra el mensaje
+                    <br>
+                    <input type="radio" name="p8" class="rc" value="">Cambiar el mensaje.
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+            </section>
+            <section class="pregunta">
+                <span class="textPregunta">9.-Cual es la extension de Microsoft Word </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p9" class="" value="">PPTX
+                    <br>
+                    <input type="radio" name="p9" class="" value="">XLSX
+                    <br>
+                    <input type="radio" name="p9" class="rc" value="">DOCX
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+            </section>
+            <section class="pregunta">
+                <span class="textPregunta">10.-QUe funcion tiene <strong>move</strong> en la terminal </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p10" class="" value="">Cambiar directorio
+                    <br>
+                    <input type="radio" name="p10" class="" value="">Copiar archivos
+                    <br>
+                    <input type="radio" name="p10" class="rc" value="">Mover o renovar archivos o directorios
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+        </aside> 
+        <section class="pregTem2 conatinPreg">
+
+            <section class="pregunta">
+                <span class="textPregunta">1.- </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p11" class="" value="">
+                    <br>
+                    <input type="radio" name="p11" class="" value="">
+                    <br>
+                    <input type="radio" name="p11" class="" value="">
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+            <section class="pregunta">
+                <span class="textPregunta">12.-Seleccione el sistema oprativo mas ligero y conocido </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p12" class="rc" value="">Linux
+                    <br>
+                    <input type="radio" name="p12" class="" value="">Windows
+                    <br>
+                    <input type="radio" name="p12" class="" value="">MAC Os
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+            <section class="pregunta">
+                <span class="textPregunta">13.-Escoje la terminal que no sea CMD en Windows </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p13" class="" value="">CMD
+                    <br>
+                    <input type="radio" name="p13" class="rc" value="">Powershell
+                    <br>
+                    <input type="radio" name="p13" class="" value="">Quocka
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+            <section class="pregunta">
+                <span class="textPregunta">14.- Que es un directorio</span>
+                <aside class="preguntas">
+                    <input type="radio" name="p14" class="rc" value=""> Es una carpeta que se puede contener archivos
+                    <br>
+                    <input type="radio" name="p14" class="" value=""> Es un sistema que no se puede contener archivos
+                    <br>
+                    <input type="radio" name="p14" class="" value=""> Todas las anteriores
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+            <section class="pregunta">
+                <span class="textPregunta">15.-Que lenguaje se utiliza en CMD </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p15" class="" value="">Lenguaje ensamblador
+                    <br>
+                    <input type="radio" name="p15" class="" value="">Lenguaje de procesamiento por lotes
+                    <br>
+                    <input type="radio" name="p15" class="" value="">Phyton
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+            <section class="pregunta">
+                <span class="textPregunta">6.- </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p16" class="" value="">
+                    <br>
+                    <input type="radio" name="p16" class="" value="">
+                    <br>
+                    <input type="radio" name="p16" class="" value="">
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+            <section class="pregunta">
+                <span class="textPregunta">17.-Escoja 1 ejemplo de Comandos Externos </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p17" class="" value="">copy
+                    <br>
+                    <input type="radio" name="p17" class="rc" value="">ping
+                    <br>
+                    <input type="radio" name="p17" class="" value="">date
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+            <section class="pregunta">
+                <span class="textPregunta">8.- </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p18" class="" value="">
+                    <br>
+                    <input type="radio" name="p18" class="" value="">
+                    <br>
+                    <input type="radio" name="p18" class="" value="">
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+            <section class="pregunta">
+                <span class="textPregunta">19.-Elija 1 concepto basico de redes </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p19" class="" value="">ping config
+                    <br>
+                    <input type="radio" name="p19" class="" value="">ping
+                    <br>
+                    <input type="radio" name="p19" class="rc" value="">Protocolos de comunicacion
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+            <section class="pregunta">
+                <span class="textPregunta">10.- </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p20" class="" value="">
+                    <br>
+                    <input type="radio" name="p20" class="" value="">
+                    <br>
+                    <input type="radio" name="p20" class="" value="">
+                    <br>
+
+
+
+
+
+                </aside>
+            </section>
 
         </section>
+
+        <section class="pregTem3 conatinPreg">
+            <section class="pregunta">
+                <span class="textPregunta">21.-Que es una variable de entorno </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p21" class="rc" value="">Claves o valores que las aplicaciones utilizan
+                    para
+                    comportarse
+                    <br>
+                    <input type="radio" name="p21" class="" value="">Variables que se pueden modificar
+                    <br>
+                    <input type="radio" name="p21" class="" value="">Variables globales que son utilizados en CMD
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+            <section class="pregunta">
+                <span class="textPregunta">22.-Que es el path </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p22" class="" value="">EL encargado de ejecutar comandos
+                    <br>
+                    <input type="radio" name="p22" class="rc" value="">EL que busca los directorios de los ejecutables
+                    <br>
+                    <input type="radio" name="p22" class="" value="">El encargado de modificar y crear directorios
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+            <section class="pregunta">
+                <span class="textPregunta">23.-Que es Git </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p23" class="" value="">El encargado de ejecutar comandos
+                    <br>
+                    <input type="radio" name="p23" class="" value="">El encargado de crear y modificar directorios
+                    <br>
+                    <input type="radio" name="p23" class="" value="">Una terminal para controlar el cambio de codigo
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+            <section class="pregunta">
+                <span class="textPregunta">24.-Para que sirve Diskpart </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p24" class="rc" value="">Para ver informacion de los discos
+                    <br>
+                    <input type="radio" name="p24" class="" value="">Para ver cuantos discos existen en el equipo
+                    <br>
+                    <input type="radio" name="p24" class="" value="">Para formatear discos
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+            <section class="pregunta">
+                <span class="textPregunta">25.-Para formatear un disco duro es recomendable usar </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p25" class="" value="">clear
+                    <br>
+                    <input type="radio" name="p25" class="rc" value="">clear all
+                    <br>
+                    <input type="radio" name="p25" class="" value="">Diskpart
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+            <section class="pregunta">
+                <span class="textPregunta">26.-En un disco solido no es recomendable usar </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p26" class="" value="">Diskpart
+                    <br>
+                    <input type="radio" name="p26" class="rc" value="">clear all
+                    <br>
+                    <input type="radio" name="p26" class="" value="">clear
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+            <section class="pregunta">
+                <span class="textPregunta">27.-Existen "sistemas operativos " virtuales</span>
+                <aside class="preguntas">
+                    <input type="radio" name="p27" class="rc" value="">Si
+                    <br>
+                    <input type="radio" name="p27" class="" value="">No
+                    <br>
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+            <section class="pregunta">
+                <span class="textPregunta">28.-Cual es la extension de la imagen de un Sistema Operativo </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p28" class="" value="">JPEG
+                    <br>
+                    <input type="radio" name="p28" class="" value="">JPG
+                    <br>
+                    <input type="radio" name="p28" class="rc" value="">ISO
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+            <section class="pregunta">
+                <span class="textPregunta">29.-Con que comando se enlista los discos duros, solidos o unidades externos
+                </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p29" class="rc" value="">List disk
+                    <br>
+                    <input type="radio" name="p29" class="" value="">List disc
+                    <br>
+                    <input type="radio" name="p29" class="" value="">List disck
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+
+            <section class="pregunta">
+                <span class="textPregunta">30.-En la terminal CMD se puede visualizar la informacion de redes </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p30" class="" value="">WiFi
+                    <br>
+                    <input type="radio" name="p30" class="" value="">Eterneth
+                    <br>
+                    <input type="radio" name="p30" class="" value="">Las dos
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+        </section>
+        <section class="pregTem4 conatinPreg">
+            <section class="pregunta">
+                <span class="textPregunta">31.-Para ver la informacion de una red se utiliza el comando...... </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p31" class="" value="">Ipconfig.
+                    <br>
+                    <input type="radio" name="p31" class="rc" value="">ipconfig
+                    <br>
+                    <input type="radio" name="p31" class="" value="">ipconfig.
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+
+
+
+            <section class="pregunta">
+                <span class="textPregunta">7.- </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p32" class="" value="">
+                    <br>
+                    <input type="radio" name="p32" class="" value="">
+                    <br>
+                    <input type="radio" name="p32" class="" value="">
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+
+            <section class="pregunta">
+                <span class="textPregunta">33.-CMD es la unica terminla de Windows </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p33" class="" value="">Si
+                    <br>
+                    <input type="radio" name="p33" class="" value="">No
+                    <br>
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+
+
+
+            <section class="pregunta">
+                <span class="textPregunta">34.-Cual es la extension de Excel </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p34" class="" value="">PPTX
+                    <br>
+                    <input type="radio" name="p34" class="" value="">DOCX
+                    <br>
+                    <input type="radio" name="p34" class="rc" value="">XLSX
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+
+            <section class="pregunta">
+                <span class="textPregunta">35.-Cual es la extension de PowerPoint </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p35" class="" value="">PPTX
+                    <br>
+                    <input type="radio" name="p35" class="" value="">DOCX
+                    <br>
+                    <input type="radio" name="p338" class="" value="">XLSX
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+            <h2>Preduntas avanzadas</h2>
+            <section class="pregunta">
+                <span class="textPregunta">36.- Que es github</span>
+                <aside class="preguntas">
+                    <input type="radio" name="p36" class="" value="">Es un servicio que permite crear base de datos
+                    <br>
+                    <input type="radio" name="p36" class="rc" value="">Es un servicio que permite crear repositorios
+                    <br>
+                    <input type="radio" name="p36" class="" value="">Es un servicio que permite crear aplicaciones
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+
+            <section class="pregunta">
+                <span class="textPregunta">37.- Que funcion cumplen los repositorios de Github </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p37" class="" value="">Almacenar los archivos estaticos de tu pagina web
+                    <br>
+                    <input type="radio" name="p37" class="rc" value="">Almacenar los archivos estaticos y dinamicos de
+                    tu
+                    pagina web
+                    <br>
+                    <input type="radio" name="p37" class="" value="">Almacenar los archivos estaticos, dinamicos y base
+                    de
+                    datos de tu pagina web
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+
+            <section class="pregunta">
+                <span class="textPregunta">38.-Que es git bash </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p38" class="" value="">La terminal de Powershell
+                    <br>
+                    <input type="radio" name="p38" class="" value="">La terminal de CMD
+                    <br>
+                    <input type="radio" name="p38" class="rc" value="">La terminal de Git
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+
+            <section class="pregunta">
+                <span class="textPregunta">39.-Para que sirve la terminal de git </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p39" class="rc" value="">Para controlar los cambios en el codigo
+                    <br>
+                    <input type="radio" name="p39" class="" value="">Para incluir cambios en el codigo
+                    <br>
+                    <input type="radio" name="p39" class="" value="">Todas las anteriores
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+
+            <section class="pregunta">
+                <span class="textPregunta">40.-Para que sirve el comando git add </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p40" class="rc" value="">Sirve para preparar cambios en el codigo
+                    <br>
+                    <input type="radio" name="p40" class="" value="">Sirve para eliminar cambios en el codigo
+                    <br>
+                    <input type="radio" name="p40" class="" value="">Sirve para crear un nuevo repositorio
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+        </section>
+
+
+        <section class="pregTem5 conatinPreg">
+            <section class="pregunta">
+                <span class="textPregunta">41.-Para que sirve el comando git commit </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p41" class="" value="">Sirve para agregar cambios en el codigo de manera
+                    permanente
+                    <br>
+                    <input type="radio" name="p41" class="rc" value="">Sirve para guardar cambios de manera local
+                    <br>
+                    <input type="radio" name="p41" class="" value="">Sirve para crear un nuevo repositorio
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+
+            <section class="pregunta">
+                <span class="textPregunta">42.-Para que sirve el comando git push </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p42" class="" value="">Sirve para evitar cambios a un repositorio remoto
+                    <br>
+                    <input type="radio" name="p42" class="rc" value="">Sirve para enviar cambios a un repositorio remoto
+                    <br>
+                    <input type="radio" name="p42" class="" value="">Sirve para crear un nuevo repositorio
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+
+            <section class="pregunta">
+                <span class="textPregunta">43.-Cual es el sistema operativo mas conocido en el mundo </span>
+                <aside class="preguntas">
+                    <input type="radio" name="p43" class="rc" value="">Windows
+                    <br>
+                    <input type="radio" name="p43" class="" value="">Linux
+                    <br>
+                    <input type="radio" name="p43" class="" value="">MAC Os
+                    <br>
+
+
+
+
+
+                </aside>
+
+            </section>
+
+            <section class="pregunta">
+                <span class="textPregunta">44.- ¿Qué es un archivo ejecutable?</span>
+                <aside class="preguntas">
+                    <input type="radio" name="p44" class="rc" value="">Un archivo que contiene instrucciones para que el
+                    sistema operativo realice una tarea
+                    <br>
+                    <input type="radio" name="p44" value="">Un archivo que almacena imágenes
+                    <br>
+                    <input type="radio" name="p44" value="">Un archivo que almacena texto
+                    <br>
+                </aside>
+            </section>
+
+            <section class="pregunta">
+                <span class="textPregunta">45.- ¿Qué significa el comando "mkdir" en la terminal?</span>
+                <aside class="preguntas">
+                    <input type="radio" name="p45" class="rc" value="">Crear un nuevo directorio
+                    <br>
+                    <input type="radio" name="p45" value="">Eliminar un directorio
+                    <br>
+                    <input type="radio" name="p45" value="">Mover un directorio
+                    <br>
+                </aside>
+            </section>
+
+            <section class="pregunta">
+                <span class="textPregunta">46.- ¿Qué es un sistema de archivos?</span>
+                <aside class="preguntas">
+                    <input type="radio" name="p46" class="rc" value="">Una estructura que organiza y almacena datos en
+                    un
+                    disco
+                    <br>
+                    <input type="radio" name="p46" value="">Un programa que edita texto
+                    <br>
+                    <input type="radio" name="p46" value="">Un lenguaje de programación
+                    <br>
+                </aside>
+            </section>
+
+            <section class="pregunta">
+                <span class="textPregunta">47.- ¿Qué comando se utiliza para eliminar un archivo en Linux?</span>
+                <aside class="preguntas">
+                    <input type="radio" name="p47" class="rc" value="">rm
+                    <br>
+                    <input type="radio" name="p47" value="">del
+                    <br>
+                    <input type="radio" name="p47" value="">erase
+                    <br>
+                </aside>
+            </section>
+
+            <section class="pregunta">
+                <span class="textPregunta">48.- ¿Qué es un kernel?</span>
+                <aside class="preguntas">
+                    <input type="radio" name="p48" class="rc" value="">El núcleo del sistema operativo que gestiona el
+                    hardware
+                    <br>
+                    <input type="radio" name="p48" value="">Un programa de edición de texto
+                    <br>
+                    <input type="radio" name="p48" value="">Un archivo ejecutable
+                    <br>
+                </aside>
+            </section>
+
+            <section class="pregunta">
+                <span class="textPregunta">49.- ¿Qué significa el comando "cd" en la terminal?</span>
+                <aside class="preguntas">
+                    <input type="radio" name="p49" class="rc" value="">Cambiar de directorio
+                    <br>
+                    <input type="radio" name="p49" value="">Copiar un archivo
+                    <br>
+                    <input type="radio" name="p49" value="">Eliminar un archivo
+                    <br>
+                </aside>
+            </section>
+
+            <section class="pregunta">
+                <span class="textPregunta">50.- ¿Qué es un sistema operativo de tiempo real?</span>
+                <aside class="preguntas">
+                    <input type="radio" name="p50" class="rc" value="">Un sistema que responde a eventos en un tiempo
+                    predecible
+                    <br>
+                    <input type="radio" name="p50" value="">Un sistema que solo funciona en tiempo de ejecución
+                    <br>
+                    <input type="radio" name="p50" value="">Un sistema que no utiliza hardware
+                    <br>
+                </aside>
+            </section>
+        </section>
+        <aside class="limiteFooter"></aside>
+
+
+
+
+
+
+
+
+
     </form>
+    <button class="ddd">ssssssssssss</button>
+
 </body>
+
 </html>

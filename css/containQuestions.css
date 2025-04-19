@@ -1,0 +1,46 @@
+
+
+.conatinPreg {
+    position: absolute;
+    width: 100%;
+    top: 200px;
+    padding: 30px; 
+    transition:all .3s;
+}
+
+.pregTem1{
+    background: red;
+    z-index: 5;
+    scale:1;
+    top: 280px;
+    left: 0;
+}
+.pregTem2{
+    background: blue;
+    z-index: 4;
+    scale: 0.98;
+    top: 260px;
+    left: 0;
+}
+.pregTem3{
+    background: green;
+    z-index: 3;
+    scale: 0.96;
+    top: 240px;
+    left: 0;
+}
+.pregTem4{
+    background: yellow;
+    z-index: 2;
+    scale: 0.94;
+    top: 220px;
+    left: 0;
+}
+.pregTem5{
+    background: orange;
+    z-index: 1; 
+    scale: 0.92;
+    top: 200px;
+    left: 0;
+}
+
