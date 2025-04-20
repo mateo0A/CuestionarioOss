@@ -1,5 +1,5 @@
-let tiempo = 72; 
-
+let tiempo = 1200; 
+ 
 let display = document.querySelector('.timer');
 setInterval(() => {
     const minutos = Math.floor(tiempo / 60); 
@@ -12,5 +12,6 @@ setInterval(() => {
     if (tiempo < 0) {
         clearInterval();
         display.innerText = "0:00";
+        window.location.href="/html/resultados.html"
     }
 }, 1000);

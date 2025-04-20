@@ -8,6 +8,9 @@
     --btn-frm:#ddd7d7;
     --btn-frm-hover:#2fa32b;
     --bck-cards:#cacaca;
+    --bck-resul:#8712bd;
+    --bck-SA:#d2dfce;
+    --bck-timer:#7a14ce;
 }
 
 *{
@@ -22,7 +25,7 @@
 body{
     background: var(--bck-body);
     transition: all .3s .1s;
-
+ 
 }
 
 body.darkMM{
@@ -32,8 +35,8 @@ body.darkMM{
     --bck-frm:#313030;
     --btn-frm:#1b1b1b;
     --bck-cards:#534d4d;
-
-
+    --bck-resul:#af12c4;
+    --bck-SA:#636161;
 }
 body.darkMM .bi-brightness-low{
     opacity: 1;

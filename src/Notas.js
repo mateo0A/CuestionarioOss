@@ -1,6 +1,6 @@
 let pp=document.querySelectorAll('.rc')
 
-let btn=document.querySelector('.ddd')
+let btn=document.querySelector('.resultadoCuest')
 
 
 btn.addEventListener('click',()=>{

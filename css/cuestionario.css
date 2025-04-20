@@ -33,7 +33,13 @@ body{
 
 
 .timer{
-    background: #fff;
-    padding: 50px;
+    background: var(--bck-timer);
+    padding: 5px 25px;
     color: #1c1c1c;
+    position: fixed;
+    left: 10px;
+    top: 10px; 
+    border-radius: 3px;
+    z-index: 1000;
+    color: #fff;
 }
