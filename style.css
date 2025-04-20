@@ -7,6 +7,7 @@
     --bck-frm:#fff;
     --btn-frm:#ddd7d7;
     --btn-frm-hover:#2fa32b;
+    --bck-cards:#cacaca;
 }
 
 *{
@@ -30,6 +31,8 @@ body.darkMM{
     --color-basis:#fff;
     --bck-frm:#313030;
     --btn-frm:#1b1b1b;
+    --bck-cards:#534d4d;
+
 
 }
 body.darkMM .bi-brightness-low{

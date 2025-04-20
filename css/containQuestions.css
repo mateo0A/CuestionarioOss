@@ -1,4 +1,11 @@
-
+.seconContain{
+    position: relative;
+    width: 90%;
+    height: 1000px;
+   
+  
+    
+}
 
 .conatinPreg {
     position: absolute;
@@ -6,41 +13,60 @@
     top: 200px;
     padding: 30px; 
     transition:all .3s;
+    left: 50%;
 }
 
 .pregTem1{
-    background: red;
     z-index: 5;
     scale:1;
     top: 280px;
     left: 0;
+   background:var(--bck-cards);
+    
 }
 .pregTem2{
-    background: blue;
     z-index: 4;
     scale: 0.98;
     top: 260px;
     left: 0;
+    background:var(--bck-cards);
 }
 .pregTem3{
-    background: green;
     z-index: 3;
     scale: 0.96;
     top: 240px;
     left: 0;
+    background:var(--bck-cards);
 }
 .pregTem4{
-    background: yellow;
     z-index: 2;
     scale: 0.94;
     top: 220px;
     left: 0;
+background:var(--bck-cards);
 }
 .pregTem5{
-    background: orange;
     z-index: 1; 
     scale: 0.92;
     top: 200px;
     left: 0;
+   background:var(--bck-cards);
 }
 
+/*Buttons preg*/
+
+.btn-preg{
+    width: 110%;
+    position: sticky;
+    top: 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+
+}
+.btn-preg button{
+    padding: 10px 40px;
+    background: var(--bck-btnmode);
+    border: none;
+    border-radius: 10px; 
+}

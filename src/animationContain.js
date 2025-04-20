@@ -30,19 +30,6 @@ btnSigu.addEventListener('click', () => {
     
     
 
-    setTimeout(()=>{
-        
-    
-        
-        if(containFocus.nextElementSibling.className==="limiteFooter"){
-            NPContainer=containFocus
-    
-            containFocus=containPreg1
-        }else{
-            NPContainer=containFocus
-            containFocus=containFocus.nextElementSibling
-        }
-        
         
         
     
@@ -75,11 +62,7 @@ btnSigu.addEventListener('click', () => {
         containPreg4.style.scale = arrayScale[3]
         containPreg5.style.scale = arrayScale[4]
     
-    },300)
-    containFocus.style.left="-100%" 
-    setTimeout(()=>{
-        NPContainer.style.left="0%"
-    },400)
+   
     
 
 })
@@ -87,37 +70,51 @@ btnSigu.addEventListener('click', () => {
 btnAnterior.addEventListener('click', () => {
 
 
+    
 
-    const lastIndex = arrayIndex.shift()
-    arrayIndex.push(lastIndex);
+   console.log(containFocus);
 
+   
+        
+        
+        const lastIndex = arrayIndex.shift()
+        arrayIndex.push(lastIndex);
+    
+    
+        containPreg1.style.zIndex = arrayIndex[0];
+        containPreg2.style.zIndex = arrayIndex[1];
+        containPreg3.style.zIndex = arrayIndex[2];
+        containPreg4.style.zIndex = arrayIndex[3];
+        containPreg5.style.zIndex = arrayIndex[4];
+    
+    
+        const lastTop = arrayTop.shift()
+        arrayTop.push(lastTop)
+    
+        containPreg1.style.top = arrayTop[0];
+        containPreg2.style.top = arrayTop[1];
+        containPreg3.style.top = arrayTop[2];
+        containPreg4.style.top = arrayTop[3];
+        containPreg5.style.top = arrayTop[4];
+    
+        const lastscale = arrayScale.shift()
+        arrayScale.push(lastscale)
+    
+        containPreg1.style.scale = arrayScale[0]
+        containPreg2.style.scale = arrayScale[1]
+        containPreg3.style.scale = arrayScale[2]
+        containPreg4.style.scale = arrayScale[3]
+        containPreg5.style.scale = arrayScale[4]
+       
 
-    containPreg1.style.zIndex = arrayIndex[0];
-    containPreg2.style.zIndex = arrayIndex[1];
-    containPreg3.style.zIndex = arrayIndex[2];
-    containPreg4.style.zIndex = arrayIndex[3];
-    containPreg5.style.zIndex = arrayIndex[4];
+    
+   
+   
+    
 
-
-    const lastTop = arrayTop.shift()
-    arrayTop.push(lastTop)
-
-    containPreg1.style.top = arrayTop[0];
-    containPreg2.style.top = arrayTop[1];
-    containPreg3.style.top = arrayTop[2];
-    containPreg4.style.top = arrayTop[3];
-    containPreg5.style.top = arrayTop[4];
-
-    const lastscale = arrayScale.shift()
-    arrayScale.push(lastscale)
-
-    containPreg1.style.scale = arrayScale[0]
-    containPreg2.style.scale = arrayScale[1]
-    containPreg3.style.scale = arrayScale[2]
-    containPreg4.style.scale = arrayScale[3]
-    containPreg5.style.scale = arrayScale[4]
-
-
+    
+    
+    
 
 })
 
