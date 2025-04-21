@@ -15,10 +15,10 @@ body{
     background: var(--bck-frm);
     width:900px;
     display: flex;
-    height: 2000px;
+    height: 2600px;
     flex-direction: column;
     align-items: center;
-    padding: 10px 10px 2100px 10px; 
+    padding: 10px 10px 2200px 10px; 
     margin: 10px;
     position: relative;
     height: 1700px;
