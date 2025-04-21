@@ -1,4 +1,5 @@
 const logIn=document.querySelector('.frm-Login');
+const containPreg=document.querySelector('.seconContain')
 
 let widthScreen=window.innerWidth;
 

@@ -1,12 +1,15 @@
 .seconContain{
     position: relative;
     width: 90%;
-    height: 1000px;
+    height: auto;
    
-  
-    
+    top: -100px; 
+    transition: .5s ease-in-out;
 }
-
+.seconContain.antes{
+    top: 200px;
+    opacity: 0;
+}
 .conatinPreg {
     position: absolute;
     width: 100%;
@@ -14,7 +17,7 @@
     padding: 30px; 
     transition:all .3s;
     left: 50%;
-
+    height: 1417px;
 }
 
 .pregTem1{
@@ -65,54 +68,153 @@ filter:blur(0.5px);
 
 /*Buttons preg*/
 
-.btn-preg{
-    width: 110%;
-    position: sticky;
-    top: 100px;
-    z-index: 1000;
+.btns-section{
+    position: fixed;
+    top: 70%;
     display: flex;
     justify-content: space-between;
-
+    z-index: 10000;
+    width: 98%;
+    
 }
-.btn-preg button{
-    padding: 20px 40px;
-    background: var(--bck-SA);
-    border: none;
-    border-radius: 10px; 
-    position: relative;
-    overflow: hidden;
-    &:hover .text-pr{
-        color: #FFF;
-    }
-    &:hover::after{
-        opacity: 1;
-        left: 0;
-    }
-}
-.btn-preguntas .text-pr{
+.btns-section button div{
     position: absolute;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1000;
-    transition: .4s ease;
-}
-.btn-preguntas::after{
-    content: "";
-    position: absolute;
+    background: #ffffff00;
     width: 100%;
     height: 100%;
-    background:var( --btn-frm-hover);
     top: 0;
-    left: -100%;
-    border-radius: 5px; 
-    opacity: 0;
+    left: 0;
+    z-index: 100;
+}
+.btns-section button{
+    padding: 18px 50px;  
+    position: relative;
+    border: none;
+    background: var(--bck-SA);
+    border-radius: 3px;
+    overflow: hidden; 
+}
+.siguien span{
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    z-index: 2;
     transition: .4s ease;
 }
+.siguien i{
+    left: -20%; 
+    top: 50%;
+    transform: translate(-50%, -50%);   
+    position: absolute;
+    color: var(--color-basis);
+    transition: .3s ease;
+    z-index: 4;
+}
+.siguien:hover::after{
+    width: 120px;
+    height: 120px;
+    transition: .4s ease;
+}
+.siguien::after{
+    content: "";
+    position: absolute;
+    width: 0px;  
+    height: 0px;
+    background: var(--SA-hover);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    border-radius: 50%;
+    z-index: 1;
+}
+.siguien:hover span{
+    left:  35%;
+}
+.siguien:hover i{
+    left:  90%;
+}
+
+
+
+
+.anter span{
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    transition: .4s ease;
+}
+.anter i{
+    right: -20%; 
+    top: 50%;
+    transform: translate(-50%, -50%);   
+    position: absolute;
+    color: var(--color-basis);
+    transition: .3s ease;
+    z-index: 4;
+}
+.anter:hover i{
+    right: 75%;
+}
+.anter:hover span{ 
+    left: 70%;
+}
+.anter:hover::after{
+    width: 120px;
+    height: 120px;
+    transition: .4s ease;
+}
+.anter::after{
+    content: "";
+    position: absolute;
+    width: 0px;  
+    height: 0px;
+    background: var(--SA-hover);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    border-radius: 50%;
+    z-index: 1;
+}
+/*
+
+.btns-section button:hover i{
+    
+}
+.btns-section button:hover span{
+   
+}
+
+.btns-section i{
+    
+}
+
+.anter{
+    background: #fff;
+}
+
+.btns-section button span{
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    transition: .4s ease;
+}
+.btns-section button:hover::after{
+    
+
+}
+.btns-section button::after{
+    
+}
+*/
+/*--------------------------*/
 /*btnRes*/
 .resultadoCuest{
-    margin: 20px 0 80px;
+    margin: 80px 0 80px 0;
     padding: 20px 80px; 
     background: var(--bck-btnmode);
     border: none;
@@ -127,6 +229,7 @@ filter:blur(0.5px);
         color: #FFF;
 
     }
+    
 }
 .resultadoCuest::after{
     content: "";

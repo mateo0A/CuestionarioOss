@@ -17,11 +17,29 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding: 10px 10px 1900px 10px;
     margin: 10px;
     position: relative;
     height: 1700px;
     z-index: 0;
+    border-radius: 10px;
+    filter: drop-shadow(0px 10px 5px var(--shadow-form));
+    transform: translateY(9%);
+}
+.cuestionarioFrm.responM{
+    width: 90%; 
+    height: 2100px;
+
+}
+.cuestionarioFrm.responM .conatinPreg {
+    height: calc(1417px + 100px);
+}
+
+.cuestionarioFrm h1{
+    font-size: 40px;
+    transform: translateY(60px);
+
+    text-align: center;
 }
 .cuestionarioFrm .pregunta{
     display: flex;

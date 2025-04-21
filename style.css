@@ -9,8 +9,10 @@
     --btn-frm-hover:#2fa32b;
     --bck-cards:#cacaca;
     --bck-resul:#8712bd;
-    --bck-SA:#d2dfce;
+    --bck-SA:#eadaf3;
     --bck-timer:#7a14ce;
+    --shadow-form:#030911;
+    --SA-hover:#fff;
 }
 
 *{
@@ -25,7 +27,11 @@
 body{
     background: var(--bck-body);
     transition: all .3s .1s;
- 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 body.darkMM{
@@ -37,6 +43,10 @@ body.darkMM{
     --bck-cards:#534d4d;
     --bck-resul:#af12c4;
     --bck-SA:#636161;
+    --shadow-form:#4b3658;
+    --SA-hover:#871dce;
+
+
 }
 body.darkMM .bi-brightness-low{
     opacity: 1;
