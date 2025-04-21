@@ -21,7 +21,6 @@ body{
     padding: 10px 10px 2200px 10px; 
     margin: 10px;
     position: relative;
-    height: 1700px;
     z-index: 0;
     border-radius: 10px;
     filter: drop-shadow(0px 10px 5px var(--shadow-form));
@@ -29,11 +28,11 @@ body{
 }
 .cuestionarioFrm.responM{
     width: 90%; 
-    height: 2600px;
+    height: 3600px;
 
 }
 .cuestionarioFrm.responM .conatinPreg {
-    height: calc(1417px + 650px);
+    height: calc(1417px + 1550px);
 }
 
 .cuestionarioFrm h1{
