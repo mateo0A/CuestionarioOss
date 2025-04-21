@@ -12,6 +12,5 @@ setInterval(() => {
     if (tiempo < 0) {
         clearInterval();
         display.innerText = "0:00";
-        window.location.href="/html/resultados.html"
     }
 }, 1000);

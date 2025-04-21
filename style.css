@@ -13,6 +13,8 @@
     --bck-timer:#7a14ce;
     --shadow-form:#030911;
     --SA-hover:#fff;
+    --Res-shadow:#000; 
+    --modal-res:#8413cf;
 }
 
 *{
@@ -45,7 +47,7 @@ body.darkMM{
     --bck-SA:#636161;
     --shadow-form:#4b3658;
     --SA-hover:#871dce;
-
+    --Res-shadow:#000;
 
 }
 body.darkMM .bi-brightness-low{

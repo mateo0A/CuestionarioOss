@@ -13,6 +13,9 @@ import './src/observar.js'
 
 import './src/Responsive2.js'
 
+import './src/resetaerRespuestas.js'
+
+import './src/Resultado.js'
 const frmPreg = document.querySelector('.cuestionarioFrm')
 
 frmPreg.addEventListener('submit', (e) => {

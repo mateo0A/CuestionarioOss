@@ -1,0 +1,6 @@
+.resultadoCuest{
+    display: none;
+}
+button{
+    color: var(--color-basis); 
+}
