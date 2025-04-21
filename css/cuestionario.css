@@ -28,11 +28,11 @@ body{
 }
 .cuestionarioFrm.responM{
     width: 90%; 
-    height: 2700px; 
+    height: 4000px;  
 
 }
 .cuestionarioFrm.responM .conatinPreg {
-    height: calc(1417px + 800px);
+    height: calc(1417px + 2100px);
 }
 
 .cuestionarioFrm h1{
