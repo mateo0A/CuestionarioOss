@@ -15,7 +15,7 @@ body{
     background: var(--bck-frm);
     width:900px;
     display: flex;
-    height: 2500px;
+    height: 2400px; 
     flex-direction: column;
     align-items: center;
     padding: 10px 10px 2100px 10px; 
