@@ -15,9 +15,10 @@ body{
     background: var(--bck-frm);
     width:900px;
     display: flex;
+    height: 2000px;
     flex-direction: column;
     align-items: center;
-    padding: 10px 10px 1900px 10px;
+    padding: 10px 10px 2100px 10px; 
     margin: 10px;
     position: relative;
     height: 1700px;
@@ -28,11 +29,11 @@ body{
 }
 .cuestionarioFrm.responM{
     width: 90%; 
-    height: 2100px;
+    height: 2600px;
 
 }
 .cuestionarioFrm.responM .conatinPreg {
-    height: calc(1417px + 100px);
+    height: calc(1417px + 650px);
 }
 
 .cuestionarioFrm h1{

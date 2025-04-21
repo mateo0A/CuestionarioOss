@@ -66,7 +66,7 @@
     padding: 30px; 
     transition:all .3s;
     left: 50%;
-    height: 1417px;
+    height: calc(1417px + 320px);
 }
 
 .pregTem1{
@@ -311,4 +311,13 @@ filter:blur(0.5px);
 
 .mostrarRes{
     display: none;
+}
+
+.pregunta{
+    width: 100%;
+}
+
+
+.textPregunta{
+    font-size: 20px;
 }
