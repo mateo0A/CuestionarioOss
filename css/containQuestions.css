@@ -1,5 +1,5 @@
 .cuestionarioFrm.res{
-    filter: blur(2px);
+    filter: blur(12px);
     transition: all .5s ease-in-out;
 }
 

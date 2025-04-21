@@ -2,7 +2,7 @@ const btnResult=document.querySelector('.resultadoCuest')
 const modalRes=document.querySelector('.resultadosImpr')
 
 const reactiv=document.querySelector('.anhoter')
-
+ 
 btnResult.addEventListener('click', () => {
     modalRes.classList.add('activarModal')
     document.querySelector('.cuestionarioFrm').classList.add('res')
