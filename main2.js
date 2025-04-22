@@ -17,6 +17,8 @@ import './src/resetaerRespuestas.js'
 
 import './src/Resultado.js'
 
+import './src/resize.js'
+
 import './src/respuestasCheckRadio.js'
 const frmPreg = document.querySelector('.cuestionarioFrm')
 

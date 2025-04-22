@@ -32,7 +32,7 @@ body{
 
 }
 .cuestionarioFrm.responM .conatinPreg {
-    height: calc(1417px + 2100px);
+    height: calc(1417px + 2100px); 
 }
 
 .cuestionarioFrm h1{
