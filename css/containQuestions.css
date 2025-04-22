@@ -66,7 +66,7 @@
     padding: 30px; 
     transition:all .3s;
     left: 50%;
-    height: calc(1417px + 420px);
+    height: 1900px;
 }
 
 .pregTem1{
@@ -269,12 +269,11 @@ filter:blur(0.5px);
     border: none;
     transition: .2s ease;
     border-radius: 5px;
-    position: relative;
     overflow: hidden;
     filter: drop-shadow(0 10px 10px var(--Res-shadow));
     &:hover{
         filter: drop-shadow(0 0px 10px var(--Res-shadow));
-    }
+    } 
     &:hover::after{
         opacity: 1;
         left: 0;
