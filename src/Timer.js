@@ -1,4 +1,4 @@
-let tiempo = 600; 
+let tiempo = 1200; 
 const btnResult=document.querySelector('.resultadoCuest')
 const modalRes=document.querySelector('.resultadosImpr')
 
