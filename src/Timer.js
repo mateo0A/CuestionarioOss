@@ -6,7 +6,7 @@ const modalRes=document.querySelector('.resultadosImpr')
 const reactiv=document.querySelector('.anhoter')
 
 reactiv.addEventListener('click',()=>{
-     tiempo = 600; 
+     tiempo = 1200; 
 
 })
 let display = document.querySelector('.timer');
