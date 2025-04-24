@@ -1,6 +1,8 @@
+import {  checkb,chekBoxs } from "./checkbox.js"
+
 let pp=document.querySelectorAll('.rc')
 
-const btnCuest=document.querySelector('.resultadoCuest')
+export const btnCuest=document.querySelector('.resultadoCuest')
 
 const btnMost=document.querySelector('.mostrarRes')
 export let nota=0
@@ -18,8 +20,10 @@ btnCuest.addEventListener('click',()=>{
     
     
     });
+    checkb();
+    
+    nota=nota+chekBoxs 
 
-    console.log(nota);
     mostrarNota.innerText=`Resultado: ${nota}`
     nota=0
 })
